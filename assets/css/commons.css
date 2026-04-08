@@ -1,0 +1,158 @@
+body {
+    line-height: 1;
+}
+
+
+
+/* 프리텐다드 폰트 */
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+
+
+/* 컬러 가이드 */
+.color-main {
+    color: #00DBCF
+}
+
+.color-Sub {
+    color: #02ABA4;
+}
+
+.color-po {
+    color: #F6FFB4;
+}
+
+.color-po2 {
+    color: #6DFDF0;
+}
+
+.color-w {
+    color: #fff;
+}
+
+.color-bl {
+    color: #333;
+}
+
+.color-g {
+    color: #9F9E9B;
+}
+
+/* 폰트 두께 */
+.r {
+    font-weight: 400;
+}
+
+.sb {
+    font-weight: 600;
+}
+
+.b {
+    font-weight: 700;
+}
+
+
+/* 폰트 사이즈 */
+
+h2 {
+    font-family: 'Pretendard';
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Pretendard';
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+h4 {
+    font-family: 'Pretendard';
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h5 {
+    font-family: 'Pretendard';
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+h6 {
+    font-family: 'Pretendard';
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Pretendard';
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* h1이지만 사실상 h7  */
+h1 {
+    font-family: 'Pretendard';
+    font-size: 1rem;
+    font-weight: 400;
+}

@@ -1,0 +1,104 @@
+@import url('../css/commons.css');
+
+
+html {
+    size: 16px
+}
+
+/* section-2 시작(어바웃) */
+.section-2 {
+    background-image: url(../images/section-2/2-bg.webp);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.section-2-textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 400;
+    padding: 9.188rem 0;
+}
+
+/* section-2 마무리 (어바웃) */
+
+
+/* section-3 시작 */
+.section-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00DBCF;
+
+}
+
+.section-3-textbox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 5rem 0;
+}
+.subtext-3{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.box-4{
+    /* flex-wrap: wrap; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 1.375rem;
+    padding: 1.375rem ;
+    border-radius: 30px;
+    border: solid 1px #f4f4f4;
+    max-width: 19.375rem;
+    min-width: 23.125rem;
+}
+.box-4 img{
+    border-radius: 30px;
+    
+}
+.boxs-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+}
+.box-4 h6{
+    margin-bottom: 0.5rem;
+}
+
+
+/* 반응형 */
+@media(max-width:1300px) {
+    html {
+        size: 15px;
+    }
+
+}
+
+
+
+@media(max-width:768px) {
+    html {
+        font-size: 13px;
+    }
+
+    .section-3-textbox{
+        padding: 6rem 16px;
+        text-align: center;
+    }
+
+    .br-none{
+        display: none;
+    }
+
+}
