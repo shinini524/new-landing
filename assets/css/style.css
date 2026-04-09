@@ -2,7 +2,7 @@
 
 
 html {
-    size: 16px
+   font-size: 16px
 }
 
 /* section-2 시작(어바웃) */
@@ -38,19 +38,27 @@ html {
 .section-3-textbox {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-items: center;
     gap: 1rem;
     padding: 5rem 0;
+    text-align: center;
 }
 .subtext-3{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
+/* section-3 마무리 */
+
+
+
+/* section-4시작 */
+.section-4{
+    display: flex;
+    justify-content: center;
+    padding: 6rem;
+}
 
 .box-4{
-    /* flex-wrap: wrap; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -59,11 +67,13 @@ html {
     padding: 1.375rem ;
     border-radius: 30px;
     border: solid 1px #f4f4f4;
-    max-width: 19.375rem;
-    min-width: 23.125rem;
+    width: 19.375rem;
+    height: auto ;
 }
 .box-4 img{
     border-radius: 30px;
+    size: 100%;
+    
     
 }
 .boxs-4{
@@ -71,21 +81,74 @@ html {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.25rem;
+    max-width: 81.25rem;
 }
 .box-4 h6{
     margin-bottom: 0.5rem;
 }
+.texbox-4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 6rem;
+    gap: 1rem;
+}
 
+/* 섹션5 시작(sequence) */
+.sequence{
+   background-color: #00DBCF;
+}
 
-/* 반응형 */
-@media(max-width:1300px) {
-    html {
-        size: 15px;
-    }
+.content-5{
+
+}
+
+.sequence-titbox{
+    padding-bottom: 6rem;
+    display: flex;
+    gap: 1rem;
 
 }
 
 
+
+
+
+/* 반응형 */
+@media(max-width:1492px) {
+    html {
+        font-size: 15px;
+    }
+    
+}
+
+@media(max-width:1399px){
+    html{
+      font-size: 14px;
+    }
+}
+
+@media(max-width:1305px){
+    html{
+        font-size: 14.5px;
+    }
+    .boxs-4{
+        flex-wrap: wrap;
+    }
+    .box-4{
+        width: 40%;
+    }
+   
+
+}
+
+@media(max-width:1280px){
+    .box-4{
+        width: 40%;
+    }
+    
+}
 
 @media(max-width:768px) {
     html {
@@ -101,4 +164,11 @@ html {
         display: none;
     }
 
+}
+
+
+@media(max-width:540px){
+    .boxs-4{
+        size: 100%;
+    }
 }

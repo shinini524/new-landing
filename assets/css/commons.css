@@ -112,6 +112,26 @@ body {
 }
 
 
+
+root {
+    --color-main: #00DBCF;
+    --color-sub: #02ABA4;
+    --color-white: #fff;
+    --color-dark: #333;
+    --color-gray: #9F9E9B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* 폰트 사이즈 */
 
 h2 {
