@@ -32,7 +32,6 @@ html {
     flex-direction: column;
     align-items: center;
     background-color: #00DBCF;
-
 }
 
 .section-3-textbox {
@@ -52,10 +51,14 @@ html {
 
 
 /* section-4시작 */
+.content-4{
+    margin: 6rem 1rem;
+}
+
 .section-4{
     display: flex;
     justify-content: center;
-    padding: 6rem;
+
 }
 
 .box-4{
@@ -101,16 +104,103 @@ html {
 }
 
 .content-5{
-
+    padding: 6rem 0;
+    margin: 0 auto;
+    max-width: 81.25rem;
+    
 }
 
 .sequence-titbox{
-    padding-bottom: 6rem;
     display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 6rem;
     gap: 1rem;
 
 }
+.sequence-box{
+    background-image: url(../images/section-5/sequence-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 26.188rem;
+    height: 18.375rem;
+    border-radius: 30px;
+    justify-content: flex-end;
+}
+.sequence-box2{
+    background-image: url(../images/section-5/sequence-2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 26.188rem;
+    height: 18.375rem;
+    border-radius: 30px;
+    justify-content: flex-end;
+}
+.sequence-box3{
+    background-image: url(../images/section-5/sequence-3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 26.188rem;
+    height: 18.375rem;
+    border-radius: 30px;
+    justify-content: flex-end;
+}
+.sequence-box4{
+    background-image: url(../images/section-5/sequence-4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 26.188rem;
+    height: 18.375rem;
+    border-radius: 30px;
+    justify-content: flex-end;
+}
+.sequence-box5{
+    background-image: url(../images/section-5/sequence-5.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 26.188rem;
+    height: 18.375rem;
+    border-radius: 30px;
+    justify-content: flex-end;
+}
+.sequence-box6{
+    background-image: url(../images/section-5/sequence-6.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 26.188rem;
+    height: 18.375rem;
+    border-radius: 30px;
+    justify-content: flex-end;
+}
 
+.sequence-boxs{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+
+}
+.sequence-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
 
 
 
@@ -145,7 +235,7 @@ html {
 
 @media(max-width:1280px){
     .box-4{
-        width: 40%;
+        width: 45%;
     }
     
 }
@@ -170,5 +260,8 @@ html {
 @media(max-width:540px){
     .boxs-4{
         size: 100%;
+    }
+    .mo-no{
+        display: block;
     }
 }
