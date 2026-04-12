@@ -113,12 +113,12 @@ body {
 
 
 
-root {
+:root {
     --color-main: #00DBCF;
     --color-sub: #02ABA4;
-    --color-white: #fff;
-    --color-dark: #333;
-    --color-gray: #9F9E9B;
+    --color-w: #fff;
+    --color-bl: #333;
+    --color-g: #9F9E9B;
 }
 
 
