@@ -5,6 +5,119 @@ html {
     font-size: 16px
 }
 
+/* 헤더 시작 */
+.logo h1 {
+    font-family: "";
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #00DBCF;
+
+}
+
+
+.gnb ul {
+    display: flex;
+    gap: 4rem;
+}
+
+.gnb li a {
+    font-size: 1.25rem;
+}
+
+.nav {
+    width: 81.25rem;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    background-color: #fff;
+
+}
+
+
+.menu {
+    display: none;
+}
+
+/* 헤더 끝 */
+
+
+
+/* 1섹션 시작 kv */
+.kv {
+    background-image: url(../images/kv/kv-bg.webp);
+    background-repeat: no-repeat;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.kv-content {
+    display: flex;
+    align-items: center;
+    padding: 2.688rem 0;
+    gap: 4rem;
+    justify-content: space-between;
+}
+
+.kv-textbox {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+}
+
+.kv-cta {
+    color: #fff;
+    font-family: 'Pretendard';
+    font-size: 2.5rem;
+    background-color: #02ABA4;
+    display: flex;
+    border-radius: 3.125rem;
+    padding: 0.625rem 3.125rem;
+    gap: 3.125rem;
+}
+
+.kv-title h1 {
+    font-size: 7.813rem;
+    font-weight: 700;
+    font-family: 'Pretendard';
+    background: linear-gradient(to top, #f6ffb4, #fff);
+    line-height: normal;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.kv-title h2 {
+    font-size: 6.25rem;
+    font-weight: 700;
+    font-family: 'Pretendard';
+    background: linear-gradient(to top, #6DFDF0, #fff);
+    line-height: normal;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.kv-model {
+    /* width: 46.438rem; */
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+/* kv마무리 */
+
+
+
 /* section-2 시작(어바웃) */
 .section-2 {
     background-image: url(../images/section-2.webp);
